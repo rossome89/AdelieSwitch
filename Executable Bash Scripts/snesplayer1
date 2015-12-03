@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Now changing SNES controls to Player 1"
+cp /ControllerConfigs/Snes/1Player/retroarch.cfg /opt/retropie/configs/snes/retroarch.cfg

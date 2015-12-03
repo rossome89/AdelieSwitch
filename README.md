@@ -1,0 +1,1 @@
+This program is to seamlessly change controller configs in RetroPie.

@@ -20,5 +20,10 @@ elif choiceConsole == "megadrive" and choicePlayer == "1":
 		subprocess.call("megadriveplayer1", shell=True)
 elif choiceConsole == "megadrive" and choicePlayer == "2":
 		subprocess.call("megadriveplayer2", shell=True)
+#nes
+elif choiceConsole == "nes" and choicePlayer == "1":
+		subprocess.call("nesplayer1", shell=True)
+elif choiceConsole == "nes" and choicePlayer == "2":
+		subprocess.call("nesplayer2", shell=True)
 else:
 	print "I'm sorry, that's not supported yet."
